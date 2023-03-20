@@ -35,6 +35,10 @@ export default function Global() {
             background: black;
           }
         }
+
+        .invalid {
+          color: red;
+        }
       `}
     />
   )

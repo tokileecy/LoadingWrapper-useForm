@@ -1,4 +1,5 @@
 import 'normalize.css';
+import Global from '../components/Global'
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -9,3 +10,12 @@ export const parameters = {
     },
   },
 }
+
+export const decorators = [
+  (Story) => (
+    <>
+      <Global/>
+      <Story />
+    </>
+  ),
+];
