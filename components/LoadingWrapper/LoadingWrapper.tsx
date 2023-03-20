@@ -31,5 +31,9 @@ export default function LoadingWrapper<T extends string | number>(
     }
   }, [data, renderData])
 
-  return <>{isLoading ? 'Loading~' : renderDataNode}</>
+  return (
+    <div data-testid="loading-wrapper">
+      {isLoading ? 'Loading~' : renderDataNode}
+    </div>
+  )
 }
