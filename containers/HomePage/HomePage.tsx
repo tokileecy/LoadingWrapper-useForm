@@ -7,13 +7,13 @@ export default function HomePage() {
   return (
     <div className={styles.root}>
       <Head>
-        <title>ts-next-storybook-template</title>
-        <meta name="description" content="ts-next-storybook-template" />
+        <title>loading-wrapper-use-form</title>
+        <meta name="description" content="loading-wrapper-use-form" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>ts-next-storybook-template</h1>
+        <h1 className={styles.title}>loading-wrapper-use-form</h1>
         <div className={styles.content}>
           <Task1 />
           <Task2 />
