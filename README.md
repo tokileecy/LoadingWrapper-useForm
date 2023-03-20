@@ -1,4 +1,4 @@
-# ts-next-storybook-template
+# LoadingWrapper-useForm
 
 ## Tasks:
 
@@ -7,8 +7,8 @@
 
 ## Demo
 
-- View [Demo](https://tokileecy.github.io/ts-next-storybook-template/demo)
-- View [Stories](https://tokileecy.github.io/ts-next-storybook-template/stories)
+- View [Demo](https://tokileecy.github.io/LoadingWrapper-useForm/demo)
+- View [Stories](https://tokileecy.github.io/LoadingWrapper-useForm/stories)
 
 ## Architecture
 
@@ -48,7 +48,7 @@ Component
 ```
 ## Env Description
 
-1. NODE Version: 14.x, 16.x
+1. NODE Version: 16.x
 2. Confirmed Work System Version: 
   - Ubuntu 22.04.1 LTS
   - macOS Monterey
